@@ -1,0 +1,13 @@
+import * as React from "react";
+
+const ExpandContentRoundedDiagonalIcon = (props) => (
+  <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path
+      fill="currentColor"
+      d="M7 17h3q.425 0 .713.288T11 18q0 .425-.288.713T10 19H6q-.425 0-.713-.288T5 18v-4q0-.425.288-.713T6 13q.425 0 .713.288T7 14v3ZM17 7h-3q-.425 0-.713-.288T13 6q0-.425.288-.713T14 5h4q.425 0 .713.288T19 6v4q0 .425-.288.713T18 11q-.425 0-.713-.288T17 10V7Z"
+    />
+  </svg>
+);
+
+export default ExpandContentRoundedDiagonalIcon;
+export const ExpandContentRoundedDiagonalIconType = "fill";
