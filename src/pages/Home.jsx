@@ -91,10 +91,10 @@ function Home() {
             "mb-8 rounded-2xl border",
             "border-[var(--color-border)]",
             "bg-[var(--color-card)]",
-            "px-5 py-6 sm:px-6 sm:py-7 lg:px-8 lg:py-8",
+            "px-4 py-4 sm:px-6 sm:py-7 lg:px-8 lg:py-8",
           )}
         >
-          <div className="grid grid-cols-1 items-center gap-8 lg:grid-cols-[65%_35%]">
+          <div className="grid grid-cols-1 items-center gap-3 lg:grid-cols-[65%_35%] lg:gap-8">
             {/* Text Content */}
             <div className="flex h-full max-w-3xl flex-col justify-center">
               <p
@@ -112,7 +112,7 @@ function Home() {
 
               <h1
                 className={clsx(
-                  "mt-4 text-2xl font-bold leading-tight tracking-tight sm:text-3xl lg:text-4xl",
+                  "mt-2 text-2xl font-bold leading-tight tracking-tight sm:text-3xl lg:text-4xl",
                   "text-[var(--color-text)]",
                 )}
               >
@@ -121,7 +121,7 @@ function Home() {
 
               <p
                 className={clsx(
-                  "mt-4 max-w-2xl text-sm leading-7 sm:text-base",
+                  "mt-2 sm:mt-4 max-w-2xl text-sm leading-7 sm:text-base",
                   "text-[var(--color-text-muted)]",
                 )}
               >
@@ -130,7 +130,7 @@ function Home() {
               </p>
 
               {/* Hero Actions */}
-              <div className="mt-6 flex flex-wrap items-center gap-3">
+              <div className="mt-3 sm:mt-6 flex flex-wrap items-center gap-3">
                 <button
                   onClick={() => navigate("/all-posts")}
                   className={clsx(
@@ -161,13 +161,13 @@ function Home() {
             </div>
 
             {/* Hero Image */}
-            <div className="mt-6 flex items-center justify-center lg:mt-0">
+            <div className="mt-1 flex items-center justify-center lg:mt-0">
               <img
                 src={heroImage}
                 alt="Hero"
                 className={clsx(
                   "w-full rounded-2xl object-contain",
-                  "max-h-[200px] sm:max-h-[210px] lg:max-h-[220px]",
+                  "max-h-[120px] sm:max-h-[210px] lg:max-h-[220px]",
                 )}
               />
             </div>

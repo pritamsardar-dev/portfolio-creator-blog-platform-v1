@@ -118,7 +118,7 @@ function Footer() {
             "text-sm text-[var(--color-text-muted)]",
           )}
         >
-          © 2025-{currentYear} Creator Blog Platform V1 • Designed & Built by Pritam Sardar
+          © 2024-{currentYear} Creator Blog Platform V1 • Designed & Built by Pritam Sardar
         </div>
       </Container>
     </footer>
