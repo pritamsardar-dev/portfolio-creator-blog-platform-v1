@@ -2,7 +2,7 @@
 
 A browser based blog platform where users can create, publish, and manage articles. It uses Appwrite for authentication, database, and file storage, with TinyMCE for rich text content creation.
 
-Live: https://blogspace.pritamsardar.dev  |  Case Study: https://pritamsardar.dev/full-case-study/portfolio-creator-blog-platform-v1?source=case-studies
+Live: https://blogspace.pritamsardar.dev  |  Case Study: https://www.pritamsardar.dev/full-case-study/project-row-blogspace?source=case-studies
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset=".github/images/blogspace-hero-dark.png">
